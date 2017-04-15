@@ -1,0 +1,114 @@
+// @font-face {
+//     font-family: 'Asar';
+//     src: url('fonts/Asar/Asar-Regular.ttf');
+// }
+
+// @font-face {
+//     font-family: 'Open Sans';
+//     src: url('fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+//     font-weight: lighter;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Open Sans';
+//     src: url('fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Open Sans';
+//     src: url('fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Open Sans';
+//     src: url('fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Open Sans';
+//     src: url('fonts/Open_Sans/OpenSans-BoldItalic.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: italic;
+// }
+
+
+/*
+ * Colors
+ * ========================================================================== */
+
+$white-base : hsl(255,
+255,
+255);
+$gray-darker : color(black lightness(+13.5%));
+
+/* #222 */
+
+$gray-dark : color(black lightness(+25%));
+
+/* #404040 */
+
+$gray : color(black lightness(+33.5%));
+
+/* #555 */
+
+$gray-light : color(black lightness(+46.7%));
+
+/* #777 */
+
+$gray-lighter : color(black lightness(+93.5%));
+
+/* #eee */
+
+
+/*
+ * Typography
+ * ========================================================================== */
+
+$font-family-base : 'Asar',
+'Open Sans',
+'Segoe UI',
+'HelveticaNeue-Light',
+sans-serif;
+
+/*
+ * Layout
+ * ========================================================================== */
+
+$max-content-width : 1000px;
+
+/*
+ * Media queries breakpoints
+ * ========================================================================== */
+
+$screen-xs-min : 480px;
+
+/* Extra small screen / phone */
+
+$screen-sm-min : 768px;
+
+/* Small screen / tablet */
+
+$screen-md-min : 992px;
+
+/* Medium screen / desktop */
+
+$screen-lg-min : 1200px;
+
+/* Large screen / wide desktop */
+
+
+/*
+ * Animations
+ * ========================================================================== */
+
+$animation-swift-out : .45s cubic-bezier(0.3,
+1,
+0.4,
+1) 0s;
